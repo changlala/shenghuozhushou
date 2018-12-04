@@ -16,6 +16,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
+import java.net.URI;
 import java.util.List;
 
 import static java.net.Proxy.Type.HTTP;
@@ -65,7 +66,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 intent = new Intent(Intent.ACTION_DIAL);
                 break;
             case R.id.tongxunlu:
-                ;
+                intent = new Intent(MainActivity.this,TongxunluActivity.class);
                 break;
             case R.id.naozhong:
                 intent = new Intent(AlarmClock.ACTION_SET_ALARM);
@@ -76,7 +77,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 break;
             case R.id.yinyue:
-                ;
+
                 break;
             case R.id.tianqi:
                 ;
