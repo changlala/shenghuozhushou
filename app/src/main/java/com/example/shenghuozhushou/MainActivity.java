@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 break;
             case R.id.tianqi:
-                ;
+                intent = new Intent("com.coolweather.android.weatheractivity");
                 break;
             case R.id.xinwen:
                 ;
