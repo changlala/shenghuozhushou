@@ -21,7 +21,9 @@ import java.util.List;
 
 import static java.net.Proxy.Type.HTTP;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends MyBaseActivity
+ implements View.OnClickListener {
+
     private static final String TAG = "MainActivity";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
