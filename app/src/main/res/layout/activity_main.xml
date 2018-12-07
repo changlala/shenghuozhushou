@@ -36,13 +36,14 @@
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="2"
-                            android:src="@mipmap/ic_launcher"/>
+                            android:padding="10px"
+                            android:src="@mipmap/calculator"/>
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="1"
                             android:text="计算器"
-                            android:gravity="center"/>
+                            android:gravity="top|center_horizontal"/>
                     </LinearLayout>
                     <LinearLayout
                         android:id="@+id/dadianhua"
@@ -54,13 +55,14 @@
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="2"
-                            android:src="@mipmap/ic_launcher"/>
+                            android:padding="10px"
+                            android:src="@mipmap/phone"/>
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="1"
                             android:text="通话"
-                            android:gravity="center"/>
+                            android:gravity="top|center_horizontal"/>
                     </LinearLayout>
                     <LinearLayout
                         android:id="@+id/tongxunlu"
@@ -72,13 +74,14 @@
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="2"
-                            android:src="@mipmap/ic_launcher"/>
+                            android:padding="10px"
+                            android:src="@mipmap/tongxunlu"/>
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="1"
                             android:text="通讯录"
-                            android:gravity="center"/>
+                            android:gravity="top|center_horizontal"/>
                     </LinearLayout>
 
                 </TableRow>
@@ -94,13 +97,14 @@
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="2"
-                            android:src="@mipmap/ic_launcher"/>
+                            android:padding="10px"
+                            android:src="@mipmap/naozhong"/>
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="1"
                             android:text="设定闹钟"
-                            android:gravity="center"/>
+                            android:gravity="top|center_horizontal"/>
                     </LinearLayout>
                     <LinearLayout
                         android:id="@+id/rili"
@@ -112,13 +116,14 @@
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="2"
-                            android:src="@mipmap/ic_launcher"/>
+                            android:padding="10px"
+                            android:src="@mipmap/rili"/>
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="1"
                             android:text="创建日程"
-                            android:gravity="center"/>
+                            android:gravity="top|center_horizontal"/>
                     </LinearLayout>
                     <LinearLayout
                         android:id="@+id/yinyue"
@@ -130,13 +135,14 @@
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="2"
-                            android:src="@mipmap/ic_launcher"/>
+                            android:padding="10px"
+                            android:src="@mipmap/yinyue"/>
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="1"
                             android:text="音乐"
-                            android:gravity="center"/>
+                            android:gravity="top|center_horizontal"/>
                     </LinearLayout>
                 </TableRow>
 
@@ -151,13 +157,14 @@
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="2"
-                            android:src="@mipmap/ic_launcher"/>
+                            android:padding="10px"
+                            android:src="@mipmap/duanxin"/>
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="1"
                             android:text="发短信"
-                            android:gravity="center"/>
+                            android:gravity="top|center_horizontal"/>
                     </LinearLayout>
                     <LinearLayout
                         android:id="@+id/tianqi"
@@ -169,13 +176,14 @@
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="2"
-                            android:src="@mipmap/ic_launcher"/>
+                            android:padding="10px"
+                            android:src="@mipmap/tianqi"/>
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="1"
                             android:text="天气"
-                            android:gravity="center"/>
+                            android:gravity="top|center_horizontal"/>
                     </LinearLayout>
                     <LinearLayout
                         android:id="@+id/xinwen"
@@ -187,13 +195,14 @@
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="2"
-                            android:src="@mipmap/ic_launcher"/>
+                            android:padding="10px"
+                            android:src="@mipmap/news"/>
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="1"
                             android:text="新闻"
-                            android:gravity="center"/>
+                            android:gravity="top|center_horizontal"/>
                     </LinearLayout>
                 </TableRow>
 

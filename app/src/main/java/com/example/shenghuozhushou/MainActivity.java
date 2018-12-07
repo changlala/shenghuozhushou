@@ -79,7 +79,7 @@ public class MainActivity extends MyBaseActivity
 
                 break;
             case R.id.yinyue:
-
+                intent = new Intent(this,MusicActivity.class);
                 break;
             case R.id.tianqi:
                 intent = new Intent("com.coolweather.android.weatheractivity");
