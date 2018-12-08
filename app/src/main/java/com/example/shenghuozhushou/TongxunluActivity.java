@@ -9,7 +9,9 @@ public class TongxunluActivity extends MyBaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tongxunlu);
-        if(getSupportActionBar()!= null)
-            getSupportActionBar().hide();
+        if(getSupportActionBar()!= null){
+            getSupportActionBar().setTitle("通讯录");
+
+        }
     }
 }

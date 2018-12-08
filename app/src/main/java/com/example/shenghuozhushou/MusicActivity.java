@@ -38,7 +38,7 @@ public class MusicActivity extends MyBaseActivity implements AdapterView.OnItemC
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_music);
         if(getSupportActionBar()!= null)
-            getSupportActionBar().hide();
+            getSupportActionBar().setTitle("音乐");
         listView = findViewById(R.id.listview_music);
         //对于自定义view注意提供第三个参数
         musicAdapter = new ArrayAdapter<>(this,R.layout.music_item_view,R.id.music_textview,
