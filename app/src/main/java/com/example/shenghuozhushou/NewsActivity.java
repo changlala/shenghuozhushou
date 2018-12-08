@@ -9,5 +9,7 @@ public class NewsActivity extends MyBaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_news);
+        if(getSupportActionBar()!= null)
+            getSupportActionBar().hide();
     }
 }

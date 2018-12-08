@@ -76,7 +76,6 @@ public class MainActivity extends MyBaseActivity
             case R.id.rili:
                 intent = new Intent(Intent.ACTION_INSERT)
                         .setData(CalendarContract.Events.CONTENT_URI);
-
                 break;
             case R.id.yinyue:
                 intent = new Intent(this,MusicActivity.class);
@@ -85,7 +84,8 @@ public class MainActivity extends MyBaseActivity
                 intent = new Intent("com.coolweather.android.weatheractivity");
                 break;
             case R.id.xinwen:
-                ;
+                Uri site = Uri.parse("https://www.toutiao.com/");
+                intent = new Intent(Intent.ACTION_VIEW,site);
                 break;
             case R.id.duanxin:
                 intent = new Intent(Intent.ACTION_SENDTO).setData(Uri.parse("smsto:"));
